@@ -17,10 +17,11 @@ _Priority is not given by order in the list._
 
 1. ❎ Decide on CSS minification and set it up. Don't like Yui Compressor.
 1. ❎ Shall we SASS?
-1. ❎ Add my custom CSS as `style.site.css`.
+1. ✅ Add my custom CSS as `style.site.css`.
 1. ❎ Replace `default.css` with CSS from `style.site.css`.
 1. ❎ Set up the build system
-1. ❎ Set up remote Git repo (on Github?)
+1. ✅ Set up remote Git repo (on Pi)
+1. ❎ Set up remote Git repo (on Github)
 1. ❎ Create a nice `preview.png` image.
 1. ❎ What to do with the Grunt build setup?
 1. ❎ Consider integrating Vue.js components?
