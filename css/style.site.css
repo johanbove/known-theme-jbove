@@ -1,0 +1,181 @@
+body {
+  background: #1a2835;
+  color: #d5d5d5;
+  font-family: asap, sans-serif;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+code, kbd, pre, samp {
+  font-style: normal;
+}
+
+blockquote {
+   border-color: #d2d2d2;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #88caff;
+}
+::selection {
+  color: #fff;
+  background: #88caff;
+}
+
+.well,
+.panel {
+  color: #222;
+}
+
+a,
+.reply-text p a {
+   color: inherit;
+}
+
+.nav-tabs.nav>li>a {
+   font-family: inherit;
+}
+
+.navbar-default {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5)
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #4c93cb;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+   color: #4c93cb;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+   color: #fff;
+}
+
+.posse a[rel="syndication"] {
+    color: #d5d5d5;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+   background-color: transparent;
+   color: #fff;
+}
+
+.btn-primary,
+.btn-save {
+   background-color: #4c93cb;
+}
+
+.notification.notification-unread {
+   color: #fff;
+}
+
+.idno-entry h3 {
+  font-size: 1.3em;
+}
+
+.idno-body p {
+  font-family: inherit;
+}
+
+.idno-content {
+  background-color: transparent;
+}
+
+.idno-object .idno-body {
+   font-style: oblique;
+}
+
+.idno-object .idno-body li {
+   font-family: inherit;
+}
+
+.idno-object h2 {
+   font-family: inherit;
+}
+
+.idno-object a.p-category {
+   color: rgba(243,243,152,0.95);
+   background-color: transparent;
+   font-family: Menlo, Monaco, consolas, 'Courier New', monospace;
+}
+
+.idno-object a.p-category:hover, .idno-object a.p-category:focus {
+   background-color: transparent;
+}
+
+.idno-object a.edit {
+   color: #d2d2d2 !important;
+}
+
+.idno-object a.edit:hover, .idno-object a.edit:focus {
+   color: #fff !important;
+}
+.idno-object .interactions a:hover, .idno-object .interactions a:focus {
+   color: #fff;
+}
+.idno-object h1 a, .idno-object h2 a, .idno-object h3 a {
+   color: #efefef;
+}
+.idno-object h1 a:hover, .idno-object h2 a:hover, .idno-object h3 a:hover {
+   color: #4c93cb;
+}
+
+.idno-body blockquote {
+   color: inherit;
+}
+
+.idno-statusupdates .idno-body p {
+   font-size: 1.4em;
+}
+
+a.contentTypeButton {
+   color: #d2d2d2;
+}
+
+a.contentTypeButton:hover, a.contentTypeButton:focus {
+   background-color: transparent;
+   color: #fff;
+}
+
+.navbar-default {
+  background-color: #111;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+   color: #4c93cb;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #4c93cb;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #000;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+   color: #fff;
+}
+
+footer {
+   margin-top: 40px;
+}
+footer address {
+   text-align: center;
+}
+
+.idno-object a.edit,
+.idno-object a.delete {
+   display: inline-block;
+   padding: 5px 3px;
+}
