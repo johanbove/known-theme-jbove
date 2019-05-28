@@ -4,38 +4,71 @@
  version. E.g.
 
     yui-compressor default.css > default.min.css
-*/    
+*/
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #88caff;
+}
+::selection {
+  color: #fff;
+  background: #88caff;
+}
 
 body {
-    background: #fff;
-    /*margin-top:64px;*/
-    /*padding-top: 0;*/
-    margin-bottom: 5em;
+  background: #1a2835;
+  color: #d5d5d5;
+  font-family: asap, sans-serif;
+  margin-bottom: 5em;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+code, kbd, pre, samp {
+  font-style: normal;
+}
+
+blockquote {
+  border-color: #d2d2d2;
+}
+
+.well,
+.panel {
+  color: #222;
 }
 
 a {
-    color: #666;
+  color: #666;
+}
+
+a,
+.reply-text p a {
+   color: inherit;
 }
 
 .idno-content {
     box-shadow: none;
     border: none;
 }
-/*.idno-body .p-name a,*/
+
 .idno-entry h2 {
     font-size: 1.8em;
     margin: 0; padding: 0;
 }
+
 .idno-body blockquote {
     margin-top: 2em;
     margin-bottom: 2em;
     font-size: 0.9em;
     color: #444;
 }
+
 .idno-statusupdates .idno-body p {
     font-size: 1.8em;
     margin: 0; padding: 0;
 }
+
 .navbar-default {
     background-color: #111; /* background color will be black for all browsers */
     background-image: none;
@@ -44,33 +77,33 @@ a {
 }
 
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
-    color: #ffffff;
+    color: #fff;
     text-shadow: none;
 }
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
-    border-bottom-color: #ffffff;
-    border-top-color: #ffffff;
+    border-bottom-color: #fff;
+    border-top-color: #fff;
 }
 
 blockquote {
-    border-left: 5px solid #000000;
+    border-left: 5px solid #000;
     padding: 0 0 0 15px;
 }
 
 .pager li > a, .pager li > span {
-    background-color: #ffffff;
-    border: 3px solid #000000;
+    background-color: #fff;
+    border: 3px solid #000;
     border-radius: 0;
-    color: #000000;
+    color: #000;
     display: inline-block;
     font-size: 1.2em;
     padding: 8px 24px;
 }
 
 .pager li > a:hover, .pager li > a:focus {
-	border: 3px solid #999999;
-	color: #999999;
+	border: 3px solid #999;
+	color: #999;
 }
 
 .button-bar {
@@ -79,8 +112,8 @@ blockquote {
 }
 
 .btn-primary {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #000;
+    border-color: #000;
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -88,6 +121,9 @@ blockquote {
 }
 
 /* For B3 */
+.navbar-default {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5)
+}
 
 .navbar-default .navbar-brand {
     color: #fff;
@@ -103,22 +139,166 @@ blockquote {
 
 .navbar-nav > li > .nav > li > a {
     color: #fff;
-    /*padding-bottom: 13px;
-    padding-top: 13px;*/
 }
 
 .navbar .nav .dropdown-toggle .caret {
     margin-top: 0;
 }
+
 .dropdown-menu {
 	margin: 0 0 0;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
+
 .navbar-nav > li > .dropdown-menu, .navbar-right .dropdown-menu {
     margin-top: 6px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #4c93cb;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+   color: #4c93cb;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  color: #fff;
+}
+
+.nav-tabs.nav>li>a {
+  font-family: inherit;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+   background-color: transparent;
+   color: #fff;
+}
+
+.posse a[rel="syndication"] {
+   color: #d5d5d5;
+}
+
+.btn-primary,
+.btn-save {
+   background-color: #4c93cb;
+}
+
+.notification.notification-unread {
+   color: #fff;
+}
+
+.idno-entry h3 {
+  font-size: 1.3em;
+}
+
+.idno-body p {
+  font-family: inherit;
+}
+
+.idno-content {
+  background-color: transparent;
+}
+
+.idno-object .idno-body {
+   font-style: oblique;
+}
+
+.idno-object .idno-body li {
+   font-family: inherit;
+}
+
+.idno-object h2 {
+   font-family: inherit;
+}
+
+.idno-object a.p-category {
+   color: rgba(243,243,152,0.95);
+   background-color: transparent;
+   font-family: Menlo, Monaco, consolas, 'Courier New', monospace;
+}
+
+.idno-object a.p-category:hover, .idno-object a.p-category:focus {
+   background-color: transparent;
+}
+
+.idno-object a.edit {
+   color: #d2d2d2 !important;
+}
+
+.idno-object a.edit:hover, .idno-object a.edit:focus {
+   color: #fff !important;
+}
+.idno-object .interactions a:hover, .idno-object .interactions a:focus {
+   color: #fff;
+}
+.idno-object h1 a, .idno-object h2 a, .idno-object h3 a {
+   color: #efefef;
+}
+.idno-object h1 a:hover, .idno-object h2 a:hover, .idno-object h3 a:hover {
+   color: #4c93cb;
+}
+
+.idno-body blockquote {
+   color: inherit;
+}
+
+.idno-statusupdates .idno-body p {
+   font-size: 1.4em;
+}
+
+a.contentTypeButton {
+   color: #d2d2d2;
+}
+
+a.contentTypeButton:hover, a.contentTypeButton:focus {
+   background-color: transparent;
+   color: #fff;
+}
+
+.navbar-default {
+  background-color: #111;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+   color: #4c93cb;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #4c93cb;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #000;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+   color: #fff;
+}
+
+footer {
+   margin-top: 40px;
+}
+
+footer address {
+   text-align: center;
+}
+
+.idno-object a.edit,
+.idno-object a.delete {
+   display: inline-block;
+   padding: 5px 3px;
 }
