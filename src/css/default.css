@@ -16,7 +16,7 @@
 
 body {
   background: #1a2835;
-  color: #d5d5d5;
+  color: #f9f9f9;
   font-family: asap, sans-serif;
   margin-bottom: 5em;
 }
@@ -301,4 +301,67 @@ footer address {
 .idno-object a.delete {
    display: inline-block;
    padding: 5px 3px;
+}
+
+.reply-text {
+  font-size: larger;
+}
+
+.reply-text p {
+  color: inherit;
+}
+
+.idno-object a {
+   color: inherit;
+   text-decoration: underline;
+}
+
+.idno-object .permalink a,
+.idno-object .interactions a {
+   color: #fff;
+   font-weight: 600;
+}
+
+.idno-object a:hover,
+.idno-object a:focus,
+.idno-object a:active,
+.idno-object .interactions a:hover {
+   color: #4c93cb;
+}
+
+.idno-object .footer a,
+.idno-object .footer a:hover,
+.idno-object .footer a:focus {
+   text-decoration: none;
+}
+
+.idno-object a.p-category,
+.p-category { font-style: oblique; text-decoration: none; }
+
+.idno-content {
+   background: rgba(255,255,255,.05);
+}
+
+@media all and (max-width: 650px) {
+ .idno-object .footer {
+   padding-bottom: 15px;
+ }
+}
+
+.notification .idno-content {
+  border: none;
+  background: transparent;
+}
+
+.notification.notification-read {
+  color: inherit;
+}
+
+.notification .idno-object .footer {
+  padding: normal;
+}
+
+.notification .idno-object .footer a {
+  display: inline-block;
+  padding: 5px;
 }
