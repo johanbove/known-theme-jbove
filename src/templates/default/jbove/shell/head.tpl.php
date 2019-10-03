@@ -11,7 +11,7 @@
       font-size: 12px;
       padding-top: 50px;
    }
-   .nabar {
+   .navbar {
       margin-bottom: 25px;
    }
    .navbar-brand {
