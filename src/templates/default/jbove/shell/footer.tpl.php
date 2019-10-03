@@ -1,7 +1,7 @@
 <?php
 $object = $vars['object'];
 
-if (!empty($object)) {
+if (isset($object) && !empty($object)) {
 ?>
 <div class="blank-footer">
     <div class="container">
