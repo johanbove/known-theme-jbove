@@ -15,7 +15,7 @@ if (!empty($object)) {
                     <div style="display: none"> <!-- This is useful for webmentions -->
                         <p class="p-author author h-card vcard">
                             <a href="<?php echo $owner->getDisplayURL() ?>" class="icon-container"><img
-                                    class="u-logo logo u-photo photo" src="<?php echo $owner->getIcon() ?>"/></a>
+                                    class="u-logo logo u-photo photo" src="<?php echo $owner->getIcon() ?>" alt="<?php echo $owner->getTitle() ?>" /></a>
                             <a class="p-name fn u-url url" href="<?php echo $owner->getDisplayURL() ?>"><?php echo $owner->getTitle() ?></a>
                             <a class="u-url" href="<?php echo $owner->getDisplayURL() ?>">
                                 <!-- This is here to force the hand of your MF2 parser --></a>
