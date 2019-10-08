@@ -66,4 +66,8 @@ blockquote {
 .idno-body blockquote {
    font-style: oblique;
 }
+
+.idno-entry.row {
+   margin-bottom: 30px;
+}
 </style>
