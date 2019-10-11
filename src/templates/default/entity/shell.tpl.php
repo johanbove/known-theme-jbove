@@ -11,7 +11,7 @@ if (!empty($object)) {
             }?>">
 
                 <div
-                    class="col-md-10 col-md-offset-1 <?php echo $object->getMicroformats2ObjectType() ?> idno-<?php echo $object->getContentTypeCategorySlug() ?> idno-status-<?php echo strtolower($object->access) ?> idno-object idno-content">
+                    class="col-md-10 col-md-offset-1 <?php echo $object->getMicroformats2ObjectType() ?> idno-<?php echo $object->getContentTypeCategorySlug() ?> idno-access-<?php echo strtolower($object->access) ?> idno-object idno-content">
                     <div style="display: none"> <!-- This is useful for webmentions -->
                         <p class="p-author author h-card vcard">
                             <a href="<?php echo $owner->getDisplayURL() ?>" class="icon-container"><img
