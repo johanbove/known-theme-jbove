@@ -1,5 +1,7 @@
 <?php
-$object = $vars['object'];
+if (isset($vars['object'])) {
+    $object = $vars['object'];
+}
 
 if (isset($object) && !empty($object)) {
 ?>
@@ -18,7 +20,7 @@ if (isset($object) && !empty($object)) {
         </div>
         <div class="row">
             <div class="col-md-12 u-server">
-                <p class="text-center"><a href="https://withknown.com/?utm_source=footer&utm_medium=installation" class="u-platform" rel="noopener">Known v0.14.1</a></p>
+                <p class="text-center"><a href="https://withknown.com/?utm_source=footer&utm_medium=installation" class="u-platform" rel="noopener">Known v1.0.0-rc.2-jbove</a></p>
             </div>
         </div>
         <div class="row">
