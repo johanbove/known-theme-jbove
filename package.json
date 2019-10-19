@@ -1,6 +1,6 @@
 {
   "name": "jbove",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "devDependencies": {
     "grunt": "^0.4.5"
   }
