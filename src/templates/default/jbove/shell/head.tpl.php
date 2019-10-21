@@ -25,7 +25,8 @@
 
 .subscription,
 .navbar-default {
-   background-color: #1a2835;
+   background-color: skyblue;
+    box-shadow: 5px 5px 50px rgba(255,255,255,0.3)
 }
 
 .idno-content {
