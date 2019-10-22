@@ -25,8 +25,8 @@
 
 .subscription,
 .navbar-default {
-   background-color: skyblue;
-    box-shadow: 5px 5px 50px rgba(255,255,255,0.3)
+   background-color: deepskyblue;
+   box-shadow: 5px 5px 50px rgba(255,255,255,0.3)
 }
 
 .idno-content {
@@ -47,9 +47,17 @@
    text-decoration: underline;
 }
 
-.navbar-nav > li > .nav > li >a:focus,
-.navbar-nav > li > .nav > li > a:hover {
-   color: #4c93cb;
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-nav > li > .nav > li > a:focus,
+.navbar-nav > li > .nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+   color: #fff;
+   text-shadow: 1px 1px 1px slateblue;
 }
 
 .reply-text p a,
