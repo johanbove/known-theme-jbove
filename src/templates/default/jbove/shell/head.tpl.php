@@ -23,7 +23,12 @@
    }
 }
 
-.subscription,
+.subscription {
+    background-color: transparent;
+    padding: 0.25em 0;
+    margin: 0.25em 0;
+}
+
 .navbar-default {
    background-color: deepskyblue;
    box-shadow: 5px 5px 50px rgba(255,255,255,0.3)
