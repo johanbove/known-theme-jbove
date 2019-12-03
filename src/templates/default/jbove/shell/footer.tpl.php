@@ -14,13 +14,13 @@ if (isset($object) && !empty($object)) {
                     An IndieWeb Webring 🕸💍
                     <a href="https://xn--sr8hvo.ws/%F0%9F%94%B6%E2%80%BC%EF%B8%8F%F0%9F%94%9C/next" rel="nofollow noopener">→</a>
                 </p>
-                <p class="text-center" style="max-width:500px;margin:auto auto 30px;font-style:italic;"><small>The web ring leads to many interesting personal sites worth exploring,
+                <p class="text-center" style="max-width:500px;margin:auto auto 30px;font-style:italic;line-height:1"><small>The web ring leads to many interesting personal sites worth exploring,
                         but I am not in control of where the arrows will lead you. Click on your own risk.</small></p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 u-server">
-                <p class="text-center"><a href="https://withknown.com/?utm_source=footer&utm_medium=installation" class="u-platform" rel="noopener">Known v1.0.0-rc.2-jbove</a></p>
+                <p class="text-center"><a href="https://withknown.com/?utm_source=footer&utm_medium=installation" class="u-platform" rel="noopener">Known v1.0.0-rc.2.2-jbove</a></p>
             </div>
         </div>
         <div class="row">

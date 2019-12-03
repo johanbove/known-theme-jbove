@@ -1,4 +1,8 @@
+<!-- Microsub -->
 <link rel="microsub" href="https://aperture.p3k.io/microsub/287">
+<!-- fed.brid.gy -->
+<link rel="alternate" type="application/atom+xml"
+   href="https://granary.io/url?url=<?php echo \Idno\Core\Idno::site()->config()->getDisplayURL() ?>&input=html&output=atom&hub=https://bridgy-fed.superfeedr.com/" />
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,700|Open+Sans:700" rel="stylesheet">
 <link href="<?php echo \Idno\Core\Idno::site()->config()->getDisplayURL() ?>Themes/Jbove/css/default.min.css" rel="stylesheet">
@@ -72,8 +76,13 @@ a {
 }
 
 @media (max-width: 767px) {
-   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-       color: #ddd;
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+       color: #fff;
+       text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+   }
+   .navbar-fixed-bottom, .navbar-fixed-top {
+      /* fixes the menu not being scrollable */
+      position: absolute;
    }
 }
 
@@ -87,5 +96,10 @@ blockquote {
 
 .idno-entry.row {
    margin-bottom: 30px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
 }
 </style>
